@@ -5,7 +5,7 @@ xhr.onreadystatechange = function() {
            var htmlsource = xhr.responseText
            // some operations
            parser = new DOMParser().parseFromString(htmlsource, "text/html");
-           print(htmlsource)
+           alert(htmlsource)
 
         }
 };
