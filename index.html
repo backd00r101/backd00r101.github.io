@@ -1,13 +1,12 @@
-var xhr = new XMLHttpRequest();
-xhr.onreadystatechange = function() {
-        if (xhr.readyState == 4) {
-           var htmlsource = xhr.responseText
-           // some operations
-           parser = new DOMParser().parseFromString(htmlsource, "text/html");
-           alert(htmlsource)
+<html>
+<body>
+    <h1>Log into Sphero</h1>
+<label for="">Email:</label>
+<input type="text" name="username" id=""><br><br>
+<label for="">Password:</label>
+<input type="text" name="username" id=""><br>
 
-        }
-};
+<!-- Sphero bug -->
 
-xhr.open('GET', 'https://www.united-domains.de/portfolio/a/user/data', true);
-xhr.send();
+</body>
+</html>
